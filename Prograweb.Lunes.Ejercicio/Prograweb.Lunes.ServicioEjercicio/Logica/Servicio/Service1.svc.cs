@@ -29,6 +29,17 @@ namespace Prograweb.Lunes.ServicioEjercicio.Logica.Servicio
             return elResultado;
         }
 
+        public double Suma(double primernumero, double segundonumero)
+        {
+            // forma 1
+            //var laEspecificacion = new Logica.Especificacion.OperacionPotencia();
+            // forma 2
+            Logica.Especificacion.OperacionSuma laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.OperacionSuma();
+            var elResultado = laEspecificacion.Suma(primernumero, segundonumero);
+            return elResultado;
+        }
+
         public string GetData(int value)
         {
             return string.Format("You entered: {0}", value);
