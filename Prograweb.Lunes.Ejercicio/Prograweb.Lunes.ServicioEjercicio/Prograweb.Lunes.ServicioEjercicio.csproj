@@ -75,14 +75,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Logica\Accion\OperacionDivision.cs" />
+    <Compile Include="Logica\Accion\OperacionMultiplica.cs" />
     <Compile Include="Logica\Accion\OperacionSuma.cs" />
     <Compile Include="Logica\Especificacion\OperacionDivision.cs" />
+    <Compile Include="Logica\Especificacion\OperacionMultilica.cs" />
     <Compile Include="Logica\Especificacion\OperacionSuma.cs" />
     <Compile Include="Logica\Interfaz\IService1.cs" />
     <Compile Include="Logica\Servicio\Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
     <Compile Include="Logica\Validacion\OperacionDivision.cs" />
+    <Compile Include="Logica\Validacion\OperacionMultiplica.cs" />
     <Compile Include="Logica\Validacion\OperacionSuma.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

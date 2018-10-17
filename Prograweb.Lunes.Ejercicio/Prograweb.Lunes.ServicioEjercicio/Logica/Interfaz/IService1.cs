@@ -18,6 +18,11 @@ namespace Prograweb.Lunes.ServicioEjercicio.Logica.Servicio
         [OperationContract]
 
         double Suma(double primernumero, double segundonumero);
+
+        [OperationContract]
+
+        double Multiplica(double primernumero, double segundonumero);
+
         [OperationContract]
         string GetData(int value);
 

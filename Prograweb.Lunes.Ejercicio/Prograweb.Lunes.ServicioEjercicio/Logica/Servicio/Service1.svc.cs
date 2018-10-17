@@ -40,6 +40,17 @@ namespace Prograweb.Lunes.ServicioEjercicio.Logica.Servicio
             return elResultado;
         }
 
+        public double Multiplica(double primernumero, double segundonumero)
+        {
+            // forma 1
+            //var laEspecificacion = new Logica.Especificacion.OperacionPotencia();
+            // forma 2
+            Logica.Especificacion.OperacionMultilica laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.OperacionMultilica();
+            var elResultado = laEspecificacion.Multiplica(primernumero, segundonumero);
+            return elResultado;
+        }
+
         public string GetData(int value)
         {
             return string.Format("You entered: {0}", value);
